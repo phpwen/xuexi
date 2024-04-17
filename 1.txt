@@ -1,0 +1,33 @@
+-fei/fei.go
+    package fei
+
+    import "fmt"
+
+    func Feis() {
+        fmt.Println("feis")
+    }
+    
+-main/mian.go
+    package main
+
+    import "xuexi/fei"
+
+    func main() {
+        MyGos()
+        fei.Feis()
+    }
+-main/mygo.go
+    package main
+
+    import "fmt"
+
+    func MyGos() {
+        fmt.Println("myGOS")
+    }
+
+
+
+
+go build -o xxx.exe ./main
+
+TERMINAL  ./xxx.exe
