@@ -5,4 +5,5 @@ import "xuexi/fei"
 func main() {
 	MyGos()
 	fei.Feis()
+	fei.Feis()
 }
